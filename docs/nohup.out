@@ -1,0 +1,4 @@
+10.0.0.138 - - [24/Oct/2016 20:02:02] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:02:02] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:02:02] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:02:02] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
