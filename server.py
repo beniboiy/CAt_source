@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 HTTP Server functioning as middle layer for Slack Integration
-__author__ = "Yohan Francis"
+__author__ = "Yohan Francis, Ben Robinson"
 __copyright__ = ""
 
 __license__ = ""
