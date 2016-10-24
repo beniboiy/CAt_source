@@ -20,9 +20,6 @@ PORT = 7888
 
 
 def slack_login_req(response_url):
-    self.send_response(200, 'OK')               # send OK
-    self.rfile.write('Debugging: POST OK ')            # send contents
-    self.end_headers()                          # end response
     headers = {
                 'content-type': 'application/json',
                 'Origin': 'http://slackapptest.ddns.net'
@@ -39,8 +36,6 @@ def slack_login_req(response_url):
     requests.post(url=response_url, headers=headers, json=json_payload)
 
 
-
-
 class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     # Handler for the GET requests
     def do_GET(self):
@@ -49,37 +44,42 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         try:
             # Check the file extension required and
             # set the right mime type
-
-            sendReply = False
+            send_reply = False
             if self.path.endswith(".html"):
-                mimetype = 'text/html'
-                sendReply = True
+                mime_type = 'text/html'
+                send_reply = True
             elif self.path.endswith(".png"):
-                mimetype = 'image/png'
-                sendReply = True
+                mime_type = 'image/png'
+                send_reply = True
             elif self.path.endswith(".gif"):
-                mimetype='image/gif'
-                sendReply = True
+                mime_type = 'image/gif'
+                send_reply = True
             elif self.path.endswith(".jpg"):
-                mimetype='image/jpeg'
-                sendReply = True
+                mime_type = 'image/jpeg'
+                send_reply = True
             elif self.path.endswith(".ico"):
-                mimetype='image/x-icon'
-                sendReply = True
+                mime_type = 'image/x-icon'
+                send_reply = True
             elif self.path.endswith(".js"):
-                mimetype='application/javascript'
-                sendReply = True
+                mime_type = 'application/javascript'
+                send_reply = True
             elif self.path.endswith(".css"):
-                mimetype='text/css'
-                sendReply = True
+                mime_type = 'text/css'
+                send_reply = True
+            elif self.path.endswith(".otf"):
+                mime_type = 'application/vnd.ms-fontobject'
+                send_reply = True
+            elif self.path.endswith(".ttf"):
+                mime_type = 'application/font-sfnt'
+                send_reply = True
             else:
-                mimetype = False
+                mime_type = False
 
-            if sendReply:
+            if send_reply:
                 # Open the static file requested and send it
                 f = open(curdir + sep + self.path,'rb')
                 self.send_response(200)
-                self.send_header('Content-type', mimetype)
+                self.send_header('Content-type', mime_type)
                 self.end_headers()
                 self.wfile.write(f.read())
                 f.close()
@@ -111,7 +111,10 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
             try:
                 response_url = fields['response_url'][0]
-                login_req(response_url=response_url)
+                slack_login_req(response_url=response_url)
+                self.send_response(200, 'OK')               # send OK
+                self.rfile.write('Debugging: POST OK ')            # send contents
+                self.end_headers()                          # end response
                 return
             except (ValueError,Exception):
                 self.send_response(200)
