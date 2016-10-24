@@ -4,7 +4,7 @@ HTTP Server functioning as middle layer for Slack Integration
 __author__ = "Yohan Francis, Ben Robinson"
 __copyright__ = ""
 
-__license__ = ""
+__license__ = "faget license"
 __version__ = "0.1"
 __maintainer__ = "Yohan Francis"
 __email__ = "yohan@keaz.co"
