@@ -7,14 +7,14 @@
 */
 
 window.addEventListener("load", startup);
-var popUp;
 
 function startup()
 {
+    // Initialising a pop up to display some information. A cookie is also created to prevent this occurring between reloads of the homepage
     var opened = document.cookie;
     
     if(opened.substr(0,12) !== "visited=true"){
-        popUp = document.createElement("div");
+        var popUp = document.createElement("div");
         popUp.style.width = "50%";
         popUp.style.height = "50%";
         popUp.style.margin = "auto";
@@ -72,41 +72,52 @@ function startup()
             };
         };
     
-    popUp.appendChild(button);
+        popUp.appendChild(button);
     
-    document.body.appendChild(popUp);
+        document.body.appendChild(popUp);
     
-    shiftUp();
-    };
-};
-
-function shiftUp()
-{
-    var shifter = setInterval(move, 30);
-    var opacityNumber = 0.1;
-    
-    function move()
-    {
-        var topNumber = Number(popUp.style.top.substr(0,2));
+        shiftUp();
         
-        if(topNumber === 15)
+        function shiftUp()
         {
-           clearInterval(shifter);
-        } else {
-            topNumber -= 0.085;
-            opacityNumber += 0.0325;
-            popUp.style.top = topNumber + "%";
-            popUp.style.backgroundColor = "rgba(250,250,250," + opacityNumber + ")";
+        var shifter = setInterval(move, 30);
+        var opacityNumber = 0.1;
+    
+        function move()
+        {
+            var topNumber = Number(popUp.style.top.substr(0,2));
+        
+            if(topNumber === 15)
+            {
+            clearInterval(shifter);
+            } else {
+                topNumber -= 0.085;
+                opacityNumber += 0.0325;
+                popUp.style.top = topNumber + "%";
+                popUp.style.backgroundColor = "rgba(250,250,250," + opacityNumber + ")";
+            };
+        };
         };
     };
+    
+    // Adding event listeners to the tabs in the menu bar to add some animation
+    var  menuBar = document.getElementById('menubar');
+    
+    for(var i = 0; i < menuBar.children.length; i++)
+    {
+        menuBar.children[i].addEventListener("mouseover", function()
+            {
+                this.style.borderLeft = "1px solid white";
+                this.style.borderRight = "1px solid white";
+                this.style.color = "white";
+        });
+        
+        menuBar.children[i].addEventListener("mouseout", function()
+            {
+                this.style.borderLeft = "1px solid rgba(30,30,30,0.9)";
+                this.style.borderRight = "1px solid rgba(30,30,30,0.9)";
+                this.style.color = "rgba(30,30,30,0.9)";
+        });
+    };
+    
 };
-
-function focus(tabID)
-{
-    console.log("worked");
-};
-
-function jumpTo()
-{
-    this.location.href = "http://www.google.com"
-}
