@@ -63,6 +63,9 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
             elif self.path.endswith(".js"):
                 mime_type = 'application/javascript'
                 send_reply = True
+            elif self.path.endswith('.txt'):
+                mime_type = 'text/*'
+                send_reply = True
             elif self.path.endswith(".css"):
                 mime_type = 'text/css'
                 send_reply = True
