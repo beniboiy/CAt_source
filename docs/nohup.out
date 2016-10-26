@@ -2,3 +2,327 @@
 10.0.0.138 - - [24/Oct/2016 20:02:02] "GET /code/stylesheet.css HTTP/1.1" 200 -
 10.0.0.138 - - [24/Oct/2016 20:02:02] "GET /code/indexPage.js HTTP/1.1" 200 -
 10.0.0.138 - - [24/Oct/2016 20:02:02] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:04:00] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:04:00] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:04:00] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:04:01] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:06:30] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:06:30] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:06:30] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:06:31] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:08:04] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:08:04] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:08:04] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:08:05] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:09:51] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:09:51] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:09:51] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:09:51] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:11:20] "GET /code/stylesheet.css HTTP/1.1" 200 -
+120.21.75.210 - - [24/Oct/2016 20:20:58] "GET / HTTP/1.1" 200 -
+120.21.75.210 - - [24/Oct/2016 20:20:58] "GET /code/stylesheet.css HTTP/1.1" 200 -
+120.21.75.210 - - [24/Oct/2016 20:20:58] "GET /code/indexPage.js HTTP/1.1" 200 -
+120.21.75.210 - - [24/Oct/2016 20:20:58] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:23:19] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:33] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:33] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:33] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:34] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:34] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:34] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:26:39] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:10] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:10] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:10] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:10] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:10] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:10] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:21] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:21] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:21] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:21] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:22] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:22] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:35] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:36] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:36] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:36] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:37] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:37] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:37] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:27:37] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:10] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:10] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:10] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:10] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:11] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:11] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:15] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:16] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:19] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:19] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:19] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:20] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:20] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:20] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:20] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:20] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:28] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:28:51] code 404, message File Not Found: /login.html
+10.0.0.138 - - [24/Oct/2016 20:28:51] "GET /login.html HTTP/1.1" 404 -
+10.0.0.138 - - [24/Oct/2016 20:28:52] code 404, message File Not Found: /favicon.ico
+10.0.0.138 - - [24/Oct/2016 20:28:52] "GET /favicon.ico HTTP/1.1" 404 -
+10.0.0.138 - - [24/Oct/2016 20:31:33] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:33] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:34] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:34] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:34] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:34] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:35] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:35] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:35] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:35] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:35] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:35] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:39] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:39] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:39] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:39] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:39] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:39] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:41] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:41] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:41] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:41] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:41] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:41] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:42] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:42] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:42] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:42] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:42] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:42] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:43] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:43] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:43] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:43] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:43] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:43] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:44] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:44] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:44] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:44] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:44] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:44] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:48] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:48] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:48] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:48] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:48] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:48] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:52] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:52] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:52] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:52] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:52] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:52] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:55] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:55] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:55] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:55] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:55] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:55] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:57] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:57] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:57] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:57] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:57] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:31:57] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:32:05] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:32:05] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:32:05] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:32:05] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:32:05] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:32:05] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:34:59] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:34:59] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:34:59] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:34:59] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:35:00] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:35:00] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:01] "GET / HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:01] "GET /code/stylesheet.css HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:01] "GET /code/indexPage.js HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:01] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:02] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:02] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:02] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+10.0.0.138 - - [24/Oct/2016 20:37:02] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+183.129.160.229 - - [24/Oct/2016 20:42:13] "GET / HTTP/1.1" 200 -
+183.129.160.229 - - [24/Oct/2016 20:42:13] code 400, message Bad request syntax ('test')
+183.129.160.229 - - [24/Oct/2016 20:42:13] "test" 400 -
+111.248.121.130 - - [24/Oct/2016 22:04:05] code 501, message Unsupported method ('CONNECT')
+111.248.121.130 - - [24/Oct/2016 22:04:05] "CONNECT 163mx00.mxmail.netease.com:25 HTTP/1.0" 501 -
+36.229.236.132 - - [25/Oct/2016 03:34:38] code 501, message Unsupported method ('CONNECT')
+36.229.236.132 - - [25/Oct/2016 03:34:38] "CONNECT vip163mx00.mxmail.netease.com:25 HTTP/1.0" 501 -
+139.162.13.205 - - [25/Oct/2016 11:23:14] "GET / HTTP/1.1" 200 -
+54.209.231.248 - - [25/Oct/2016 11:24:18] "POST / HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:08:19] "GET / HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:08:19] "GET /code/stylesheet.css HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:08:19] "GET /code/indexPage.js HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:08:20] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:08:42] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:08:42] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:40] "GET / HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:41] "GET /code/stylesheet.css HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:41] "GET /code/indexPage.js HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:42] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:48] code 404, message File Not Found: /images/index_wallpaper.png
+203.42.111.198 - - [25/Oct/2016 15:09:48] "GET /images/index_wallpaper.png HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+203.42.111.198 - - [25/Oct/2016 15:09:48] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:48] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:48] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:48] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:49] "GET / HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:49] "GET /code/stylesheet.css HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:49] "GET /code/indexPage.js HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:09:49] "GET /images/index_wallpaper.png HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:10:10] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:10:10] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:17] "GET / HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:17] "GET /code/stylesheet.css HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:17] "GET /code/indexPage.js HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:17] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:19] code 404, message File Not Found: /images/index_wallpaper.jpg
+203.42.111.198 - - [25/Oct/2016 15:16:19] "GET /images/index_wallpaper.jpg HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+203.42.111.198 - - [25/Oct/2016 15:16:19] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:19] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:20] "GET / HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:20] "GET /code/stylesheet.css HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:20] "GET /code/indexPage.js HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:20] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:20] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+203.42.111.198 - - [25/Oct/2016 15:16:20] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:07:53] "GET / HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:07:53] "GET /code/indexPage.js HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:07:53] "GET /code/stylesheet.css HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:07:54] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:23:28] code 404, message File Not Found: /images/index_wallpaper.jpg
+122.107.161.129 - - [25/Oct/2016 16:23:28] "GET /images/index_wallpaper.jpg HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+122.107.161.129 - - [25/Oct/2016 16:23:28] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:23:28] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:23:28] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:39:39] code 404, message File Not Found: /images/index_wallpaper.jpg
+122.107.161.129 - - [25/Oct/2016 16:39:39] "GET /images/index_wallpaper.jpg HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+122.107.161.129 - - [25/Oct/2016 16:39:39] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 16:39:39] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+192.187.118.18 - - [25/Oct/2016 17:16:10] "GET / HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 17:31:51] "GET / HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 17:31:51] "GET /code/stylesheet.css HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 17:31:51] "GET /code/indexPage.js HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 17:31:51] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 17:31:51] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+122.107.161.129 - - [25/Oct/2016 17:31:51] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+36.225.254.98 - - [25/Oct/2016 17:59:26] code 501, message Unsupported method ('CONNECT')
+36.225.254.98 - - [25/Oct/2016 17:59:26] "CONNECT 126mx03.mxmail.netease.com:25 HTTP/1.0" 501 -
+141.212.122.32 - - [25/Oct/2016 19:10:07] "GET / HTTP/1.1" 200 -
+112.199.65.58 - - [25/Oct/2016 21:17:24] code 400, message Bad request version ('F\xd0o/\x11l\xae6\xee\x870\xdc')
+112.199.65.58 - - [25/Oct/2016 21:17:24] "·ún´ªdÿ!¡¬O¿{÷D^çàå±xáÓŠäùYàDÀ§EFÐo/l®6î‡0Ü" 400 -
+192.187.109.59 - - [25/Oct/2016 21:39:25] "GET / HTTP/1.1" 200 -
+212.92.127.172 - - [25/Oct/2016 21:45:10] "GET / HTTP/1.1" 200 -
+111.248.126.44 - - [25/Oct/2016 23:02:07] code 501, message Unsupported method ('CONNECT')
+111.248.126.44 - - [25/Oct/2016 23:02:07] "CONNECT 163mx03.mxmail.netease.com:25 HTTP/1.0" 501 -
+173.208.150.118 - - [25/Oct/2016 23:24:22] "GET / HTTP/1.1" 200 -
+52.67.141.127 - - [26/Oct/2016 00:25:47] "GET / HTTP/1.1" 200 -
+169.229.3.91 - - [26/Oct/2016 00:37:05] code 400, message Bad request syntax ('\xdf_\x82\x84\xf8P\xa6\xd5\x10\r\xec1 \xa0}{\xf4\x9a\xcc\xb0\xd0J\x13>\xa7\xd7\x95\x89\x84"\xcfG\xbf\x04\t\xbf![\xceX\xc00\xb9\xc3\xca\xee\xfdx\xd1\xaa\xfc\xb0\x14V(\x1c\xef\x8b\xe4*@r\xb6\x8b')
+169.229.3.91 - - [26/Oct/2016 00:37:05] "ß_‚„øP¦Õì1  }{ôšÌ°ÐJ>§×•‰„"ÏG¿	¿![ÎXÀ0¹ÃÊîýxÑªü°V(ï‹ä*@r¶‹" 400 -
+198.204.240.219 - - [26/Oct/2016 02:55:14] "GET / HTTP/1.1" 200 -
+111.248.57.71 - - [26/Oct/2016 09:44:43] code 501, message Unsupported method ('CONNECT')
+111.248.57.71 - - [26/Oct/2016 09:44:43] "CONNECT 126mx02.mxmail.netease.com:25 HTTP/1.0" 501 -
+120.147.25.166 - - [26/Oct/2016 10:40:04] "GET / HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:04] "GET /code/stylesheet.css HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:04] "GET /code/indexPage.js HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:04] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:04] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:04] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:15] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:40:15] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:19] "GET / HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:19] "GET /code/stylesheet.css HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:19] "GET /code/indexPage.js HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:19] "GET /fonts/lemon_milk/LemonMilk.otf HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:19] "GET /fonts/pacifico/Pacifico.ttf HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:19] "GET /images/index_wallpaper.jpg HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:30] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:41:30] "GET /images/CAt_not.ico HTTP/1.1" 200 -
+120.147.25.166 - - [26/Oct/2016 10:42:09] "GET /code/stylesheet.css HTTP/1.1" 200 -
