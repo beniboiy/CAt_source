@@ -1,11 +1,3 @@
-<!--
-    What follows is an original production of code by Carribean AUTOtech (established as of August 2016) - a subsidiary of GMC. 
-    Founding members include (in alphabetical order) Yohan Francis, Kevin Nguyen, and Ben Robinson.
-    Unauthorised copying, plagarising, or any use of the following not intended for by all of the founding members unanimously is strictly forbidden.
-
-    ©CAt.GMC (2016)
--->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,29 +18,20 @@
     <!-- For Android web application -->
     <meta name ="mobile-web-app-capable" content="yes">
     <link rel="shortcut icon" sizes="196x196" href="images/CAt_not.ico" />
-    
 </head>
 <body>
     <div id="titlebody">
         <div class="banner" id="header">Carribean &nbsp;&nbsp;&nbsp;<span>AUTO</span>tech</div>
             <table>
-                <tr id="menubar">
-                    <td class="menubar" id="homeTab">Home</td>
-                    <td class="menubar" id="auctionsTab">Auctions</td>
-                    <td class="menubar" id="diyTab">DIY</td>
-                    <td class="menubar" id="forumTab">Forum</td>
-                    <td class="menubar" id="merchTab">Merchandise</td>
-                    <td class="menubar" id="aboutTab">About Us</td>
+                <tr id="menubar" onmouseover="focus">
+                    <td class="menubar" id="homeTab" onclick="jumpTo">Home</td>
+                    <td class="menubar" id="auctionsTab" onmouseover="focus(auctionsTab)">Auctions</td>
+                    <td class="menubar" id="diyTab" onmouseover="focus(diyTab)">DIY</td>
+                    <td class="menubar" id="forumTab" onmouseover="focus(forumTab)">Forum</td>
+                    <td class="menubar" id="merchTab" onmouseover="focus(merchTab)">Merchandise</td>
+                    <td class="menubar" id="aboutTab" onmouseover="focus(aboutTab)">About Us</td>
                 </tr>
             </table>
     </div>
-    
-    <div id="mainbody">
-        <div class="container" id="mainContent">This is Content</div>
-        <div class="container" id="feed">This is a feed</div>
-        <div class="banner" id="footer">This is a footer</div>
-    </div>
-    
-    <script src="code/indexPage.js"></script>
 </body>
 </html>
