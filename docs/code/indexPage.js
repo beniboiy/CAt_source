@@ -1,5 +1,5 @@
 /*  
-    What follows is an original production of code by Carribean AUTOtech (established as of August 2016) - a subsidiary of GMC. 
+    What follows is an original production of code by Caribbean AUTOtech (established as of August 2016) - a subsidiary of GMC. 
     Founding members include (in alphabetical order) Yohan Francis, Kevin Nguyen, and Ben Robinson.
     Unauthorised copying, plagarising, or any use of the following not intended for by all of the founding members unanimously is strictly forbidden.
 
