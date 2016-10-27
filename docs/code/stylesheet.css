@@ -88,7 +88,6 @@ table
     height: 25%;
     top: 62.5%;
     left: 15%;
-    border: 1px solid white;
     border-collapse: collapse;
 }
 
@@ -114,8 +113,8 @@ table
 .menubar:hover
 {
     color: white;
-    border-left: 1.5px solid white;
-    border-right: 1.5px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 #mainContent

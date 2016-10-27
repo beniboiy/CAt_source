@@ -99,36 +99,10 @@ function startup()
         };
         };
     };
-    
-    // Adding event listeners to the tabs in the menu bar to add some animation
-    var  menuBar = document.getElementById('menubar');
-    
-    for(var i = 0; i < menuBar.children.length; i++)
-    {
-        if(menuBar.children[i].id !== "aboutTab"){
-            menuBar.children[i].addEventListener("mouseover", function()
-                {
-                    this.style.borderLeft = "1px solid white";
-                    this.style.borderRight = "1px solid white";
-                    this.style.color = "white";
-            });
-        
-            menuBar.children[i].addEventListener("mouseout", function()
-                {
-                    this.style.borderLeft = "1px solid rgba(30,30,30,0.9)";
-                    this.style.borderRight = "1px solid rgba(30,30,30,0.9)";
-                    this.style.color = "rgba(30,30,30,0.9)";
-            }); 
-        } else {
-            menuBar.children[i].removeEventListener("mouseover");
-            menuBar.children[i].removeEventListener("mouseout");
-        }
-    };
-    
-    var currentTab = document.getElementById("aboutTab");
-    
-    currentTab.style.color = "white";
-    currentTab.style.borderLeft = "white";
-    currentTab.style.borderRight = "white";
 };
 
+function jumpTo(tabID)
+{   
+    var tabSelected = tabID + ".html";
+    this.location.href = tabSelected;
+};
