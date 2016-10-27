@@ -121,3 +121,9 @@ function startup()
     };
     
 };
+
+function jumpTo(tabID)
+{   
+    var tabSelected = tabID + ".html";
+    this.location.href = tabSelected;
+};
