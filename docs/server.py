@@ -83,6 +83,7 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                 f = open(curdir + sep + self.path,'rb')
                 self.send_response(200)
                 self.send_header('Content-type', mime_type)
+                self.send_header('Cache-Control', 'max-age=604800, public')
                 self.end_headers()
                 self.wfile.write(f.read())
                 f.close()
