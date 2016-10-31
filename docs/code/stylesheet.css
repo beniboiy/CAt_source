@@ -36,6 +36,7 @@ html, body
     background-image: url(../images/index_wallpaper.jpg);
     background-size: 100%;
     margin: 0;
+    margin-bottom: 100px;
     overflow: scroll;
     position: fixed;
 }
@@ -48,7 +49,7 @@ html, body
     margin-top: 1%;
     text-align: center;
     font-size: 1.5em;
-    position: relative;
+    position: absolute;
 }
 
 .container
@@ -60,25 +61,19 @@ html, body
     background-color: rgba(30,30,30,0.5);
     border: 1px solid white;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
     margin-bottom: 2%;
     margin-left: 7.5%;
     margin-right: 0;
 }
 
-#mainbody
-{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin-top: 4%;
-}
-
 #feed
 {
+    position: fixed;
+    top: 21%;
+    right: 3%;
     width: 15%;
-    margin-left: 0.5%;
 }
 
 table 
@@ -97,7 +92,7 @@ table
     width: 1%;
     border-left: 1px solid rgba(30,30,30,0.9);
     border-right: 1px solid rgba(30,30,30,0.9);
-    color: rgba(45,45,45,0.9);
+    color: rgba(200,200,200,0.9);
     text-align: center;
 }
 
@@ -110,6 +105,18 @@ table
     left: 5%;
 }
 
+#footer
+{
+    width: 98.75%;
+    position: absolute;
+    text-align: right;
+    padding: 0.5%;
+    bottom: 0;
+    background-color: black;
+    z-index: -1;
+    font-size: 0.6em;
+}
+
 .menubar:hover
 {
     color: white;
@@ -119,7 +126,9 @@ table
 
 #mainContent
 {
-    margin-top: 7%;
+    position: absolute;
+    height: auto;
+    top: 2.5%;
 }
 
 #titlebody
@@ -129,4 +138,12 @@ table
     background-color: black;
     position: fixed;
     z-index: 1;
+}
+
+#mainbody
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 18.5%;
 }
