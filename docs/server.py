@@ -10,16 +10,21 @@ __maintainer__ = "Yohan Francis"
 __email__ = "yohan@keaz.co"
 __status__ = "Development"
 """
-from os import curdir, sep
-import BaseHTTPServer
-import SocketServer
-import requests
-import urlparse
+from os import curdir, sep          # from OS we're importing the current directory, and separator \
+import BaseHTTPServer               # base HTTPServer module
+# import SocketServer                  unused import - just in case todo optimize this
+import requests                     # python's requests module
+import urlparse                     # urlparse is how we grab the fields off requests
 
-PORT = 7888
+PORT = 7888         # server is being run on port 7888 of the machine
 
 
 def slack_login_req(response_url):
+    """
+    Incomplete function set up to login users to Slack and authorize using OAuth2
+    :param response_url:
+    :return:
+    """
     headers = {
                 'content-type': 'application/json',
                 'Origin': 'http://slackapptest.ddns.net'
@@ -33,18 +38,24 @@ def slack_login_req(response_url):
                             }
                         ]
                     }
-    requests.post(url=response_url, headers=headers, json=json_payload)
+    requests.post(url=response_url, headers=headers, json=json_payload)     # slack login functionality for work
 
 
-class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
-    # Handler for the GET requests
+class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):     # main class for the HTTP request handler
+
     def do_GET(self):
-        if self.path == "/":
-            self.path = "/index.html"
+        """
+        Handles get requests
+        :return:
+        """
+        if self.path == "/":            # if the request is for home (root)
+            self.path = "/index.html"   # direct it to index.html
         try:
             # Check the file extension required and
             # set the right mime type
+            # todo refactor into a nice function
             send_reply = False
+            # if we can't detect the mimetype we respond with a 501 or something
             if self.path.endswith(".html"):
                 mime_type = 'text/html'
                 send_reply = True
@@ -76,33 +87,50 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                 mime_type = 'application/font-sfnt'
                 send_reply = True
             else:
-                mime_type = False
+                mime_type = False       # this is mainly here to look pretty
 
-            if send_reply:
+            if send_reply:              # if we found a mimetype
                 # Open the static file requested and send it
-                f = open(curdir + sep + self.path,'rb')
-                self.send_response(200)
-                self.send_header('Content-type', mime_type)
-                self.send_header('Cache-Control', 'max-age=604800, public')
-                self.end_headers()
-                self.wfile.write(f.read())
-                f.close()
+                f = open(curdir + sep + self.path, 'rb')    # open up the specified file as binary (read)
+                self.send_response(200)                     # send 200 OK
+                self.send_header('Content-type', mime_type)     # send header specifying content type
+                self.send_header('Cache-Control', 'max-age=604800, public')     # send header specifying cache type
+                # current cache asks browser to hold for 2 weeks - all data is treated as public
+                self.end_headers()                          # end headers
+                self.wfile.write(f.read())                  # write the file to the output stream by reading it
+                f.close()                                   # close the file
+            else:
+                self.send_response(501)         # couldn't find mimetype - return 501 status
             return
 
-        except IOError:
+        except IOError:                         # catch the IOError which means the thing probs doesn't exist
             self.send_error(404, 'File Not Found: %s' % self.path)
-        return
+        return                                  # this is here to end the req when there's an IOError
 
-    def do_HEAD(self):                                              # simple response headers request
+    def do_HEAD(self):
+        """
+        Responds when things ask us for headers.
+        :return:
+        """
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
+        return
 
     def do_OPTIONS(self):
-        self.send_response(200)                                     # server is not equipped to handle OPTIONS
+        """
+        no
+        :return:
+        """
+        self.send_response(501)                                     # server is not equipped to handle OPTIONS
+        # fuck off i don't play with options requests
+        return
 
     def do_POST(self):
-
+        """
+        Oh yes the wonderful HTTP post handler.
+        :return:
+        """
         print self.client_address, 'did', self.command               # prints client and request
 
         try:
