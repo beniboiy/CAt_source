@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 """
-HTTP Server functioning as middle layer for Slack Integration
+HTTP Server for CAt
 __author__ = "Yohan Francis, Ben Robinson"
 __copyright__ = ""
 
 __license__ = ""
 __version__ = "0.1"
 __maintainer__ = "Yohan Francis"
-__email__ = "yohan@keaz.co"
+__email__ = "yohan.maneesh@gmail.com"
 __status__ = "Development"
 """
 from os import curdir, sep          # from OS we're importing the current directory, and separator \
@@ -152,7 +152,7 @@ class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):     # main class for the
                 self.send_response(200)
                 self.send_header("Content-type", "text/html")
                 self.end_headers()
-                filee = open('login.html','rb')
+                filee = open('login.html', 'rb')
                 self.wfile.write(filee.read())
 
         except (ValueError, TypeError, IOError, Exception), err:
