@@ -105,7 +105,7 @@ function startup()
     footer.addEventListener('scroll', shuffle);
     
     // Update the feed every ~1min
-    var updateFeed = setInterval(60000, updateIt);
+    var updateFeed = setInterval(100, updateIt);
 };
 
 function jumpTo(tabID)
