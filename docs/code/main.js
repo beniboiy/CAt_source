@@ -133,7 +133,7 @@ function updateIt()
     {
         if (updateCall.readyState === XMLHttpRequest.DONE) {
             if (updateCall.status === 200) {
-                console.log(updateCall.responseText);
+                feed.innerHTML += updateCall.responseText;
             } else {
                 alert('There was a problem with the request.');
             }
