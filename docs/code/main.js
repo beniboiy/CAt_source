@@ -105,7 +105,7 @@ function startup()
     footer.addEventListener('scroll', shuffle);
     
     // Update the feed every ~1min
-    var updateFeed = setInterval(100, updateIt);
+    var updateFeed = setInterval(1000, updateIt);
 };
 
 function jumpTo(tabID)
@@ -114,12 +114,6 @@ function jumpTo(tabID)
     console.log(tabSelected);
     this.location.href = tabSelected;
 };
-
-function shuffle(e)
-{
-  console.log(e.currentTarget.scrollLeft);
-};
-
 
 function updateIt()
 {   
@@ -135,7 +129,7 @@ function updateIt()
             if (updateCall.status === 200) {
                 feed.innerHTML += updateCall.responseText;
             } else {
-                alert('There was a problem with the request.');
+                console.log('There was a problem with the request.');
             }
         }
     }
