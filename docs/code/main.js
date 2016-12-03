@@ -125,12 +125,12 @@ function updateIt()
     
     function callPosts()
     {
-        if (updateCall.readyState === XMLHttpRequest.DONE) {
-            if (updateCall.status === 200) {
-                feed.innerHTML += updateCall.responseText;
+        if (this.readyState === XMLHttpRequest.DONE) {
+            if (this.status === 200) {
+                feed.innerHTML += this.responseText;
             } else {
                 console.log('There was a problem with the request.');
             }
         }
     }
-}
+};
