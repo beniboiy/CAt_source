@@ -49,12 +49,12 @@ function startup()
         function darken()
         {
             this.style.backgroundColor = "rgba(255, 75, 75, 1)";
-        };
+        }
 
         function lighten()
         {
             this.style.backgroundColor = "white";
-        };
+        }
 
         function hide()
         {
@@ -69,9 +69,9 @@ function startup()
                 } else {
                     opacityNumber -= 0.05;
                     popUp.style.opacity = opacityNumber;
-                };
-            };
-        };
+                }
+            }
+        }
 
         popUp.appendChild(button);
 
@@ -96,41 +96,53 @@ function startup()
                 opacityNumber += 0.0325;
                 popUp.style.top = topNumber + "%";
                 popUp.style.backgroundColor = "rgba(250,250,250," + opacityNumber + ")";
-            };
-        };
-        };
-    };
+            }
+        }
+        }
+    }
 
     var footer = document.getElementById('footer');
+
+    /*
     footer.addEventListener('scroll', shuffle);
+    * //todo - fix this
+    *
+    */
     
     // Update the feed every ~1min
     var updateFeed = setInterval(1000, updateIt);
-};
+}
 
 function jumpTo(tabID)
 {
     var tabSelected = tabID + ".php";
     console.log(tabSelected);
     this.location.href = tabSelected;
-};
+}
 
 function updateIt()
 {   
     var updateCall = new XMLHttpRequest();
-    
+
+    console.log('Debug Log: HTTP Req start');
+
     updateCall.onreadystatechange = callPosts;
     updateCall.open('GET', 'code/feed.php');
+
+    console.log('Debug Log: HTTP Req sending');
+
     updateCall.send();
     
     function callPosts()
     {
         if (this.readyState === XMLHttpRequest.DONE) {
+            console.log('HTTP Req DONE');
             if (this.status === 200) {
+                console.log('Code 200 OK Received, adding to feed.innerHTML');
                 feed.innerHTML += this.responseText;
             } else {
                 console.log('There was a problem with the request.');
             }
         }
     }
-};
+}
