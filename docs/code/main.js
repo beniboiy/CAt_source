@@ -108,9 +108,9 @@ function startup()
     * //todo - fix this
     *
     */
-    
+    //
     // Update the feed every ~1min
-    var updateFeed = setInterval(1000, updateIt);
+    var updateFeed = setInterval(updateIt,1000);
 }
 
 function jumpTo(tabID)
