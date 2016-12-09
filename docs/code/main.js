@@ -103,13 +103,9 @@ function startup()
 
     var footer = document.getElementById('footer');
 
-    /*
-    footer.addEventListener('scroll', shuffle);
-    * //todo - fix this
-    *
-    */
-    //
-    // Update the feed every ~1min
+    // Shuffle() deleted - just a play cos bored dw about it
+    
+    // Every ~1sec, the update function is called - this calls php on server to check if there is a new post to add to feed
     var updateFeed = setInterval(updateIt,1000);
 }
 
