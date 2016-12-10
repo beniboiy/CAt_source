@@ -106,7 +106,7 @@ function startup()
     // Shuffle() deleted - just a play cos bored dw about it
     
     // Every ~1sec, the update function is called - this calls php on server to check if there is a new post to add to feed
-    var updateFeed = setInterval(updateIt,1000);
+    var whydoesjsdothis = updateIt; //Ben pls explain why js insists that you assign this function to a variable? we're not even returning anything
 }
 
 function jumpTo(tabID)
@@ -137,7 +137,7 @@ function updateIt()
                 //console.log('Code 200 OK Received, adding to feed.innerHTML');
                 feed.innerHTML += this.responseText;
             } else {
-                //console.log('There was a problem with the request.');
+                console.log('There was a problem with the request.');
             }
         }
     }
