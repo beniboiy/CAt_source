@@ -120,24 +120,24 @@ function updateIt()
 {   
     var updateCall = new XMLHttpRequest();
 
-    console.log('Debug Log: HTTP Req start');
+    //console.log('Debug Log: HTTP Req start');
 
     updateCall.onreadystatechange = callPosts;
     updateCall.open('GET', 'code/feed.php');
 
-    console.log('Debug Log: HTTP Req sending');
+    //console.log('Debug Log: HTTP Req sending');
 
     updateCall.send();
     
     function callPosts()
     {
         if (this.readyState === XMLHttpRequest.DONE) {
-            console.log('HTTP Req DONE');
+            //console.log('HTTP Req DONE');
             if (this.status === 200) {
-                console.log('Code 200 OK Received, adding to feed.innerHTML');
+                //console.log('Code 200 OK Received, adding to feed.innerHTML');
                 feed.innerHTML += this.responseText;
             } else {
-                console.log('There was a problem with the request.');
+                //console.log('There was a problem with the request.');
             }
         }
     }
