@@ -74,6 +74,7 @@ html, body
     top: 21%;
     right: 3%;
     width: 15%;
+    overflow-y: scroll;
 }
 
 table 
