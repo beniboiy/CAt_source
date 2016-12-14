@@ -25,7 +25,8 @@ if($first_run) {                // if this is the first run
     $copy_array = $ten_array;       // make a copy for comparison later on
     while ($i <= 10) {              // echo this into feed
         $first_run = false;
-        echo $ten_array[$i] . "\n";
+        echo "<p>" . $ten_array[$i] . "</p>";   // Changed it to be wrapped in HTML paragraph tags so it should stay within the feed block
+                                                // (will change html/css so it's certain)
         $i++;                       // for loop
     }
 }
