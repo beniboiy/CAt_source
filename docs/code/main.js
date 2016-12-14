@@ -102,11 +102,14 @@ function startup()
     }
 
     var footer = document.getElementById('footer');
-
-    // Shuffle() deleted - just a play cos bored dw about it
     
     // Every ~1sec, the update function is called - this calls php on server to check if there is a new post to add to feed
-    var whydoesjsdothis = updateIt; //Ben pls explain why js insists that you assign this function to a variable? we're not even returning anything
+    var timer = setInterval(updateIt, 5000); 
+    /* 
+    Javascript functions are "first class" (or something like that) so can be used as variables themselves and passed as arguments to other functions with their return value being used - which is why the above works. 
+    Maybe the error was because setInterval wasn't assigned to a variable? because the above is valid. It shouldn't throw an error
+    -- Ben
+    */
 }
 
 function jumpTo(tabID)
