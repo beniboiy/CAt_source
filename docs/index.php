@@ -55,7 +55,8 @@
 
     <div id="mainbody">
         <div class="container" id="mainContent">We're still working on this, liking everything else.</div>
-        <div class="container" id="feed">We'll add a feed here. Eventually.
+        <div class="container" id="feed">
+            <p> Launching sometime in <?php echo date('Y') + 1; ?> </p>
         </div>
         <div class="banner" id="footer">
             Caribbean AUTOtech is purely a hobby, founded by three guys with no technical experience or qualifications. Everything here is just our oppinion and is most likely wrong. <br/>GMC has no affiliation with General Motors Co. or any of its subsidiaries - again, this is a reference to a private joke between founders. Enjoy.
