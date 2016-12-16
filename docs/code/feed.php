@@ -38,3 +38,14 @@ else{
 }
 ?>
 
+/* NOTES:
+
+For feed to work eventually:
+- need to have current info of array of children nodes (post summaries)
+  then compare the 10 latest from the database and either remove or leave 
+	-- can use MySQL database's id number as identifier for comparison (easier than checking content)
+	-- need DOMNode class from PHP for checking children number (and probably content - although ^id could be added if we made the children a class of objects)
+
+- need a way to actually authenticate to an admin/reserved page to allow write access to database
+
+*/
