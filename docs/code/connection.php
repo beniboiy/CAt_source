@@ -19,5 +19,10 @@ $sql = 'SELECT * FROM posts';
 $response = $connection->query($sql);
 $response_text = $response->fetch_assoc();
 
-echo $response_text;
+if ($response_text !== null)
+{
+    echo $response_text;
+} else {
+    echo "Error";
+}
 ?>

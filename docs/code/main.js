@@ -137,8 +137,5 @@ function updateIt()
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200 ) {
             feed.innerHTML += this.responseText;
             }
-            else {
-                console.log('There was a problem with the request. 2');
-            }
         }
 }
