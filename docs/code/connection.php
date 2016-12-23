@@ -1,6 +1,6 @@
 <?php
 // Script to be REQUIRED in 'feed.php' for MySQL connections (SECURE)
-function connect()
+/*function connect()
 {
     private $db_server = 'localhost';
     private $db_user = 'root';  // LATER: should change it so there is a specific user for read/write functions who cannot grant access 
@@ -21,6 +21,8 @@ function connect()
     $response = $connection->query($sql);
     
     echo $response;
-}
+}*/
+
+echo "Worked. Was included and subsequently outputted by feed.php";
 
 ?>
