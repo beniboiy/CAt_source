@@ -70,11 +70,11 @@ body
 
 #feed
 {
-    position: fixed;
+    position: relative;
     top: 21%;
     right: 3%;
     width: 15%;
-    height: 60%;        
+    height: 69%;        
     /* Added height property so hopefully should scroll vertical overdflow*/
     overflow-y: scroll;
 }
