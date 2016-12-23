@@ -17,8 +17,10 @@ if ($connection->connect_error) {
 $sql = 'SELECT * FROM posts';
     
 $response = $connection->query($sql);
-$response_text = $response->fetch_assoc();
 
-echo '<p>'.$response_text['content'].'<br/>'.$response_text['author'].'</p>';
+while($row = $response->fetch_assoc())
+{
+     echo '<p>'.$row['content'].'<br/>'.$row['author'].'</p>';
+}
 
 ?>
