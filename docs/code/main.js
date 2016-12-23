@@ -135,7 +135,10 @@ function updateIt()
     function callPosts()
     {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200 ) {
-            feed.innerHTML += this.responseText;
-            }
-        }
+            if (feed.children.length <= 10)
+                {
+                    feed.innerHTML += this.responseText;  
+                };
+        };
+    };
 }
