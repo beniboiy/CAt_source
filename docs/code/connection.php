@@ -17,6 +17,7 @@ if ($connection->connect_error) {
 $sql = 'SELECT * FROM posts';
     
 $response = $connection->query($sql);
+$response_text = $response->fetch_assoc();
 
-echo $response;
+echo $response_text;
 ?>
