@@ -8,7 +8,7 @@ $test_posts = ["post1 - info info info", "post2 - info info info", "post3 - info
         {
             echo $test_posts[$i]."\n";    
         };
-    };*/
+    };
 
 $first_run = true;              // First run flag
 $copy_array = null;             // Copy array exists as a reference to check whether the original has updated
@@ -37,7 +37,7 @@ else{
     }
 }
 
-
+*/
 require_once 'connection.php';
 
 
