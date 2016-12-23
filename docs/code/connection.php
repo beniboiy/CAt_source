@@ -19,5 +19,5 @@ $sql = 'SELECT * FROM posts';
 $response = $connection->query($sql);
 $response_text = $response->fetch_assoc();
 
-echo $response_text;
+echo $response_text[1];
 ?>
