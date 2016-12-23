@@ -134,18 +134,11 @@ function updateIt()
     
     function callPosts()
     {
-        if (this.readyState === XMLHttpRequest.DONE) {
-            //console.log('HTTP Req DONE');
-            if (this.status === 200) {
-                //console.log('Code 200 OK Received, adding to feed.innerHTML');
-                feed.innerHTML += this.responseText;
+        if (this.readyState === XMLHttpRequest.DONE && this.status === 200 ) {
+            feed.innerHTML += this.responseText;
             }
             else {
                 console.log('There was a problem with the request. 2');
             }
         }
-        else {
-            console.log('There was a problem with the request. 1');
-        }
-    }
 }
