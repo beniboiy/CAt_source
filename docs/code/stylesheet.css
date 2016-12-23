@@ -74,7 +74,7 @@ html, body
     top: 21%;
     right: 3%;
     width: 15%;
-    height: 70%;        
+    height: 71%;        
     /* Added height property so hopefully should scroll vertical overdflow*/
     overflow-y: scroll;
 }
