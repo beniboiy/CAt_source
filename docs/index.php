@@ -1,5 +1,5 @@
 <!--
-    What follows is an original production of code by Carribean AUTOtech (established as of August 2016) - a subsidiary of GMC.
+    What follows is an original production of code by Caribbean AUTOtech (established as of August 2016) - a subsidiary of GMC.
     Founding members include (in alphabetical order) Yohan Francis, Kevin Nguyen, and Ben Robinson.
     Unauthorised copying, plagarising, or any use of the following not intended for by all of the founding members unanimously is strictly forbidden.
 
@@ -29,6 +29,7 @@
 
 </head>
 <body>
+
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -37,8 +38,8 @@
 
   ga('create', 'UA-88049667-1', 'auto');
   ga('send', 'pageview');
-
 	</script>
+
     <div id="titlebody">
         <div class="banner" id="header">Caribbean &nbsp;&nbsp;&nbsp;<span>AUTO</span>tech</div>
             <table>
