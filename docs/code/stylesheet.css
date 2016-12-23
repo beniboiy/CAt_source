@@ -70,7 +70,7 @@ body
 
 #feed
 {
-    position: fixed;
+    position: relative;
     top: 21%;
     right: 3%;
     width: 15%;
