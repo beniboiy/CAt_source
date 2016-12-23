@@ -21,7 +21,7 @@ $response_text = $response->fetch_assoc();
 
 if ($response_text !== null)
 {
-    echo $response_text;
+    echo $response_text['content'] . "<br/>" . $response_text['author'] . "<br/>";
 } else {
     echo "Error";
 }
