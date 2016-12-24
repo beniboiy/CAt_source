@@ -45,7 +45,7 @@ body
     margin: 0;
     margin-bottom: 100px;
     /*overflow: scroll;*/
-    position: absolute;
+    position: absolute; /*note so I can add*/
 }
 
 .banner 
