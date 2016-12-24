@@ -41,6 +41,11 @@ html, body
     position: fixed;
 }
 
+body
+{
+    overflow: scroll;
+}
+
 .banner 
 {
     width: 90%;
