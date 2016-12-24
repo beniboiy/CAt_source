@@ -29,22 +29,15 @@ span
     color: white;
 }
 
-html
-{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    margin-bottom: 100px;
-    overflow-y: scroll;
-}
-
-body
+html, body
 {
     width: 100%;
     height: 100%;
     background-image: url(../images/index_wallpaper.jpg);
     background-size: 100%;
-    /*overflow: scroll;*/
+    margin: 0;
+    margin-bottom: 100px;
+    overflow: scroll;
     position: fixed;
 }
 
