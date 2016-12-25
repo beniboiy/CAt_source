@@ -34,7 +34,20 @@
             </table>
     </div>
     <div id="mainbody">
-        <div class="container" id="mainContent"><h1>Why you ask?</h1><br><h2>BECAUSE RACECAR. WHY ELSE?</h2> </div>
+        <div class="container" id="mainContent">
+            <form action="code/postContent.php" method="post">
+                <fieldset>
+                    <legend>Post Something!</legend>
+                    <input type="text" name="user" value="Enter valid username">
+                    <br/>
+                    <textarea style="width: 75%; height: 50%; resize: none;" name="content">
+                        
+                    </textarea>
+                    <br/>
+                    <input type="submit" value="Post">
+                </fieldset>
+            </form>
+        </div>
         <div class="container" id="feed">We'll add a feed here. Eventually.</div>
         <div class="banner" id="footer">
             Caribbean AUTOtech is purely a hobby, founded by three guys with no technical experience or qualifications. Everything here is just our oppinion and is most likely wrong. <br/>GMC has no affiliation with General Motors Co. or any of its subsidiaries - again, this is a reference to a private joke between founders. Enjoy.
