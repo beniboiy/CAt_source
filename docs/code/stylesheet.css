@@ -41,6 +41,12 @@ html, body
     position: fixed;
 }
 
+/* Fix to hide html scroll bar - only way I've found to work */
+html
+{
+    overflow: hidden;
+}
+
 .banner 
 {
     width: 90%;
