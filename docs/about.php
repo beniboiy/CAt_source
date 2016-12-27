@@ -7,17 +7,17 @@
     <meta name="keywords" content="Japanese, Cars, JDM, Parts">
     <meta name="google-site-verification" content="PEVdqzX66gqmd4D1vVJKXlF0uOKEoNQ2UMzz1f9zhWM" />
     <meta name="viewport" content="width=device-width, height=device-height, intial-scale=1">
-    <link rel="icon" href="images/CAt_not.ico">
+    <link rel="icon" href="images/CAt_ico.ico">
     <link rel="stylesheet" href="code/stylesheet.css">
 
     <!-- For iOS web application -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="apple-touch-statup-image" href="images/index_wallpaper.png">
-    <link rel="apple-touch-icon" href="images/CAt_not.ico">
+    <link rel="apple-touch-icon" href="images/CAt_ico.ico">
 
     <!-- For Android web application -->
     <meta name ="mobile-web-app-capable" content="yes">
-    <link rel="shortcut icon" sizes="196x196" href="images/CAt_not.ico" />
+    <link rel="shortcut icon" sizes="196x196" href="images/CAt_ico.ico" />
 </head>
 <body>
     <div id="titlebody">
