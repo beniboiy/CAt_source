@@ -38,13 +38,11 @@
             <form action="code/postContent.php" method="post">
                 <fieldset>
                     <legend>Post Something!</legend>
-                    <input type="text" name="user" value="Enter valid username">
+                    <input style= "color:black;" type="text" name="user" autofocus placeholder="Your username goes here">
                     <br/>
-                    <textarea style="width: 75%; height: 50%; resize: none;" name="content">
-                        
-                    </textarea>
+                    <textarea style="width: 50%; height: 50%; resize: none; color:black;" placeholder="Your thoughts go here" name="content"></textarea>
                     <br/>
-                    <input type="submit" value="Post">
+                    <input style="color:black;" type="submit" value="Post">
                 </fieldset>
             </form>
         </div>
