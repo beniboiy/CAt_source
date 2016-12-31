@@ -34,6 +34,9 @@
             </table>
     </div>
     <div id="mainbody">
+        <?php
+        include 'forum/register.php';
+        ?>
         <div class="container" id="mainContent">
             <form action="code/postContent.php" method="post">
                 <fieldset>
@@ -51,7 +54,6 @@
             Caribbean AUTOtech is purely a hobby, founded by three guys with no technical experience or qualifications. Everything here is just our oppinion and is most likely wrong. <br/>GMC has no affiliation with General Motors Co. or any of its subsidiaries - again, this is a reference to a private joke between founders. Enjoy.
         </div>
     </div>
-
     <script src="code/main.js"></script>
 </body>
 </html>
