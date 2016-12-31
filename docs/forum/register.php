@@ -1,5 +1,7 @@
 <?php
 
+include 'connection_forum.php'
+
 echo 'ya so sign up lad';
 if($_SERVER['REQUEST_METHOD'] != 'POST')
 {
