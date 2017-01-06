@@ -120,6 +120,10 @@ function jumpTo(tabID)
     this.location.href = tabSelected;
 }
 
+/*
+    Change it so this gets pushed into local storage so that it can persist without having to contact the server
+*/
+
 function updateIt()
 {   
     var updateCall = new XMLHttpRequest();
