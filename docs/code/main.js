@@ -14,7 +14,7 @@ function startup()
     // Initialising a pop up to display some information. A cookie is also created to prevent this occurring between reloads of the homepage
     var opened = document.cookie;
 
-    if(opened.substr(0,12) !== "visited=true"){
+    if(opened.includes("visited=true")){
         var popUp = document.createElement("div");
         popUp.style.width = "50%";
         popUp.style.height = "50%";
