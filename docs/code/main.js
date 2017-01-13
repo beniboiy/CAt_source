@@ -14,7 +14,7 @@ function startup()
     // Initialising a pop up to display some information. A cookie is also created to prevent this occurring between reloads of the homepage
     var opened = document.cookie;
 
-    if(opened.includes("visited=true")){
+    if(!opened.includes("visited=true")){
         var popUp = document.createElement("div");
         popUp.style.width = "50%";
         popUp.style.height = "50%";
@@ -104,7 +104,7 @@ function startup()
     var footer = document.getElementById('footer');
     
     // Every ~1sec, the update function is called - this calls php on server to check if there is a new post to add to feed
-    var timer = setInterval(updateIt, 5000); 
+    var timer = setInterval(updateIt, 500); 
     /* 
     Javascript functions are "first class" (or something like that) so can be used as variables themselves and passed as arguments to other functions with their return value being used - which is why the above works. 
     Maybe the error was because setInterval wasn't assigned to a variable? because the above is valid. It shouldn't throw an error
