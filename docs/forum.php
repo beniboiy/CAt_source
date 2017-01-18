@@ -38,7 +38,7 @@
         include 'forum/register.php';
         ?>
         <div class="container" id="mainContent">
-            <form action="code/postContent.php" method="post">
+            <form action="" method="POST">
                 <fieldset>
                     <legend>Post Something!</legend>
                     <input style= "color:black;" type="text" name="user" autofocus placeholder="Your username goes here">
